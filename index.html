@@ -1,0 +1,243 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Boxing hall of fame Homepage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="css/main1.css">
+  <link rel="script" href="js/myScript.js">
+  <link rel="xml" href="xml.sitemap">
+  <link rel="stylesheet"  href="dark-mode.css"/> 
+  
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: rgb(221, 235, 98) 199, 190, 190;
+  }
+
+  .jumbotron {
+    background: rgb(240, 225, 197);
+     
+
+  }
+
+  .carousel 
+{
+   width: 120%;
+   margin: auto;
+}
+
+
+/* body { */
+  /* padding: 20px; */
+  /* background-color: white; */
+  /* color: black; */
+  font-size: 25px;
+/* } */
+/*  */
+/* .dark-mode { */
+  /* background-color: #696969; */
+  /* color: white; */
+/* } */
+/*  */
+  </style>
+</head>
+<body>
+
+  
+
+ 
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1 class="text-dark" id="demo">Boxing Hall Of Fame</h1>
+  <h3 class="text-dark" id="demo">Legends of the game</h3> 
+  <button class="float-left col-m4" type="button" onclick="myFunction()"> Text Size </button>
+  <br>
+  <br>
+  <button class="float-left col-m4" onclick="myFunction1()">Toggle dark mode</button>
+  <script> 
+
+          function myFunction1() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+      }
+
+
+          function myFunction() {
+      var element = document.getElementById("demo");
+      element.classList.toggle("mystyle");
+      }
+
+  
+  </script>
+  <style>
+    .mystyle {
+      font-size: x-large;
+    }
+  </style>
+</div>
+<!--  -->
+
+<!-- <div class="sticky"> -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark rounded">
+  <a class="navbar-brand" href="index.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.buffer.html">Michael Buffer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.ingo.html">Ingemar Johansson</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="tyson.html">Mike Tyson</a>
+      </li>    
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+
+    </ul>
+  </div>
+  <!-- </div> -->
+</nav>
+
+<div class="container" style="margin-top:30px">
+    <div class="row">
+        <div class="col-sm-4">
+            <h2>Michael Buffer</h2>
+            <br>
+            <div class="Buffer">        
+                <img class="img-fluid rounded" src="img/rumble.gif"  alt="this is html"> 
+            </div>
+            <br>
+
+            <audio controls autoplay muted>
+                <source src="rumble2.mp3" type="audio/mpeg" class='float-right'>
+                Your browser does not support the audio element.
+            </audio>
+            <br><br>
+            <h6>Most iconic introducer of all time</h6> 
+            <p>Michael Buffer, born November 2, 1944 in Philadelphia, is an American presenter of boxing and wrestling. He is most known for his catchfrase 
+               ''Let's get ready to rumble'' wich he introduced in 1984. He got the frase pattented in 1992.</p>
+
+               <br>
+            <h3>Links</h3>
+            <p>Highlight videos of people from the industry.</p>
+
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    Videos 
+                </button>
+
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" target="_blank" href="https://www.youtube.com/watch?v=dRlRO3D4kcw">Mike Tyson</a>
+                    <a class="dropdown-item" href="https://www.youtube.com/watch?v=9VPIs8f21CU">Tyson Fury</a>
+                    <a class="dropdown-item" href="https://www.youtube.com/watch?v=jnLcVda9DgQ">Ingo Johansson</a>
+                    <a class="dropdown-item" href="https://www.youtube.com/watch?v=IkjEpNLkRNQ">Michael Buffer</a>
+                </div>
+            </div>
+            <hr class="d-sm-none">
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-7">
+          <h2 class="text-center">Mike Tyson</h2>
+          <br>
+            <div>
+                <img class="img-fluid rounded-circle " src="img/tyson4.jpg"  alt="this is html"> 
+                <br>
+                <br>
+                <br>
+                <h6>One of the best fighters of all time ''Iron Mike''</h6>
+                <p>Michael Gerard "Mike" Tyson, nicknamed "Iron Mike", born June 30, 1966 in Brooklyn, 
+               New York, is an American former heavyweight boxer, known as the youngest heavyweight world champion ever,
+                 holder of World Cup titles 1986-1990 and 1996.</p>
+      
+            </div>
+            <br>
+        </div>
+
+    </div>
+    <br>
+    <br>
+<div class="row">
+  <div class="col-sm-4">
+    <div id="carouselSlide" class="carousel slide" data-ride="carousel">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100 rounded-circle" src="img/buffer4.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 rounded-circle" src="img/ingo2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 rounded-circle" src="img/fury3.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselSlide" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselSlide" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <br>
+
+    
+    <h5 class="float-left">Short history of boxing</h5> 
+    <br>
+    <p class="float-left"> Boxing is a martial art where two people compete in strength, speed, reflexes (timing and emotion), 
+      perseverance and will by hitting each other with special padded gloves inside a square raised ring. 
+      The sport is monitored by a judge in 4-12 rounds that lasts three minutes. The result is decided when one of the 
+      competitors is judged to be unable to continue, is disqualified, gives up or is named the winner by a panel of judges
+       after the match. </p>
+    
+</div>
+<div class="col-sm-8">
+    <h2 class="float-right">Ingemar ''Ingo'' Johansson</h2> 
+    <br><br>
+    <img class="img-fluid rounded float-right" src="img/ingo.jpg"  alt="this is html"> 
+
+    <br><br>
+
+    <h6 class="float-right">Swedish boxing legend and former world champion ''Ingo''</h6>
+    <p class="float-right col-sm-8">Jens Ingemar "Ingo" Johansson, originally Ingemar Johansson, born September 22, 1932 
+    in Gothenburg, died January 30, 2009 in Onsala, was a Swedish amateur and later professional 
+    boxer who won Olympic silver in 1952 and became professional world champion in 1959.</p>
+
+    
+
+</div>
+</div>
+<br>
+  <div class="row">
+    <div class="col-sm-12">
+      <footer class="float-align">
+        <h4 class="text-center text-dark">Follow us on social media</h4>
+        <div class="fa-center">  
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+        </div>
+          </footer>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
